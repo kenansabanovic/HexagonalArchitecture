@@ -10,6 +10,9 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "Application\Application.csproj", "{A8022521-0B3B-4E03-9C71-2C305865DB5C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{578F4B6E-FCCA-43A7-A22A-200BC11A0641}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DC19571A-CCF8-488E-836A-B81127B7C887} = {DC19571A-CCF8-488E-836A-B81127B7C887}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi", "WebApi\WebApi.csproj", "{E54A8E19-A086-49A2-BC60-376AB79C23C9}"
 EndProject
